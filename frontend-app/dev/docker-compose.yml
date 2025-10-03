@@ -3,6 +3,7 @@ name: frontend-app-stack
 services:
   frontend-app:
     image: salhimariam/front-session13
+    restart: always
     container_name: frontend-app  
     ports:
       - '3000:80'  
