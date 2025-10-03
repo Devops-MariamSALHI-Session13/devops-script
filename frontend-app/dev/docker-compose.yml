@@ -6,6 +6,6 @@ services:
     restart: always
     container_name: frontend-app  
     ports:
-      - '3000:80'  
+      - '3002:80'  
      
 
